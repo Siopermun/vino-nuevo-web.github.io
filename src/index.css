@@ -1,0 +1,795 @@
+html {
+  font-size: 18px; /* New base font size for rem units */
+}
+
+/* Bootstrap overrides and custom styles */
+:root {
+  --bs-body-bg: #F9F7F2; /* Light cream background */
+  --bs-body-color: #2D2D2D; /* Dark grey text */
+  --bs-primary: #800020; /* Wine accent color */
+  --bs-secondary: #f0f0f0; /* Light grey for footer/cards */
+  --bs-success: #2FB04F; /* Fresh, vibrant green for WhatsApp */
+
+  /* Custom variables for consistency */
+  --vino-primary: var(--bs-primary);
+  --vino-primary-light: #B3003B; /* Lighter wine for active states */
+  --vino-primary-darker: #0056b3; /* Darker shade of blue for hovers */
+  --vino-text: var(--bs-body-color);
+  --vino-background: var(--bs-body-bg);
+  --vino-footer-bg: var(--bs-secondary);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 1.25rem; /* Will be 1.25 * 18px = 22.5px */
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg); /* Fallback */
+  background-image: 
+    url("data:image/svg+xml,%3csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='10' cy='10' r='1' fill='rgba(0,0,0,0.1)' /%3e%3c/svg%3e"),
+    linear-gradient(to bottom, var(--bs-body-bg), #ffffff); /* Subtle gradient */
+  background-attachment: fixed; /* Keep gradient fixed during scroll */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--vino-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #a0002a; /* Darker wine on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* Bolder titles */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--bs-body-color); /* Dark grey for titles */
+}
+
+/* Custom NavLink active state */
+.navbar-nav .nav-link.active {
+  color: var(--vino-primary-light) !important;
+  font-weight: 700;
+  border-bottom: 2px solid var(--vino-primary-light);
+}
+
+/* General Navbar Link Styling for subtle prominence */
+.navbar-nav {
+  /* flex-wrap: wrap; - Remove or wrap in media query if needed for larger screens */
+}
+/* Ensure nav items stack vertically in collapsed state */
+@media (min-width: 992px) { /* Bootstrap's 'lg' breakpoint */
+  .navbar-nav {
+    flex-wrap: wrap; /* Only allow wrapping on large screens and up */
+  }
+}
+.navbar-nav .nav-link {
+  font-weight: 400; /* Normal font weight */
+  color: #e9ecef !important; /* Lighter grey text on dark background */
+  font-size: 1.25rem; /* Increased font size for better visibility - 1.25 * 18px = 22.5px */
+  padding: 0.5rem 1rem; /* Adjusted padding for better spacing */
+}
+
+/* Ensure icons within nav links also reflect this color and potentially increase their size */
+.navbar-nav .nav-link .svg-inline--fa {
+  color: #e9ecef !important;
+  font-size: 1.35rem; /* Increased icon size for better visibility - 1.35 * 18px = 24.3px */
+}
+/* Dynamic Navbar styles on scroll */
+.navbar.fixed-top {
+  z-index: 1030; /* Ensure navbar is always on top */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+  background-color: #000 !important; /* Solid black background */
+  padding-top: 0.75rem; /* Reintroduced responsive padding */
+  padding-bottom: 0.75rem; /* Reintroduced responsive padding */
+}
+
+.navbar.scrolled {
+  box-shadow: 0 0.25rem 0.5rem rgba(255, 255, 255, 0.1) !important; /* Subtle white shadow */
+  padding-top: 0.5rem; /* Reduce padding on scroll */
+  padding-bottom: 0.5rem; /* Reduce padding on scroll */
+}
+
+/* Styles for Navbar Brand */
+.vino-navbar-brand {
+  color: var(--vino-primary);
+  font-size: 2rem; /* Increased font size - 2 * 18px = 36px */
+}
+
+@media (max-width: 575.98px) { /* Extra small devices (portrait phones, less than 576px) */
+  .vino-navbar-brand {
+    font-size: 1.5rem; /* Slightly smaller font size for very small screens */
+  }
+}
+.site-footer {
+  background-color: var(--vino-primary); /* Wine red background */
+  color: var(--bs-white); /* White text */
+  padding: 3rem 0; /* More vertical padding for elegance */
+  font-size: 1.25rem; /* Adjusted font size for overall elegance relative to new body font-size - 1.25 * 18px = 22.5px */
+}
+
+.site-footer h5 {
+  color: var(--bs-white); /* Ensure headings are pure white */
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.site-footer .nav-link,
+.site-footer .list-unstyled li,
+.site-footer .footer-social-link {
+  color: rgba(255, 255, 255, 0.7); /* Lighter white for body text/links/social links */
+  transition: color 0.3s ease;
+}
+
+.site-footer .nav-link:hover,
+.site-footer .footer-social-link:hover {
+  color: var(--bs-white); /* Pure white on hover */
+}
+
+.site-footer .footer-social-link {
+  font-size: 1.5rem; /* Slightly larger social icons */
+}
+
+/* Ensure copyright text is well spaced */
+.site-footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important; /* Subtle white border for copyright separation */
+}
+
+.site-footer img {
+  filter: brightness(0) invert(1); /* Make logo white if it's dark */
+}
+
+/* Custom blue for footer contact link */
+.footer-contact-link {
+  color: var(--bs-info) !important; /* Use Bootstrap's info blue */
+}
+
+
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hero-section {
+  position: relative;
+  height: 75vh;
+  padding-top: 50px; /* Margen superior fijo */
+  padding-bottom: 50px; /* Margen inferior fijo */
+  box-sizing: border-box;
+  color: var(--bs-white);
+  display: flex;
+  align-items: flex-start; /* Alinear el contenido al inicio (arriba) */
+  justify-content: center;
+  overflow: hidden; /* This is crucial to hide the parts of the image that go outside the container */
+  border: 3px solid var(--vino-primary) !important; /* Wine red border */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: kenburns 20s ease-in-out infinite alternate;
+  z-index: -1; /* Place the pseudo-element behind the content */
+}
+.hero-clock {
+  font-size: 2.5rem; /* Make the clock bigger */
+  font-weight: 300; /* Lighter weight for the clock */
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+.hero-section h1, .hero-section p {
+  color: var(--bs-white);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3); /* Add a subtle shadow for readability */
+}
+
+/* Cards */
+.card {
+  border-radius: 0.75rem; /* rounded-lg equivalent */
+  border: 3px solid var(--vino-primary) !important; /* Wine red border for all cards */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md equivalent */
+  background-color: var(--bs-white);
+  color: var(--bs-body-color);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+.card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* More pronounced shadow */
+}
+.card-title {
+  color: var(--bs-body-color); /* Ensure card titles are dark */
+}
+.card-subtitle {
+  color: var(--bs-body-color); /* Ensure card subtitles are dark */
+}
+.card-text {
+  color: var(--bs-body-color); /* Ensure card text is dark */
+}
+
+/* Specific styles for book cards */
+.card-book {
+  background-color: #ffffff;
+  background-image: linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+                    linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.book-cover-image {
+  max-width: 100%;
+  height: 200px; /* Aumentar la altura para que sea más grande */
+  object-fit: cover; /* Recortar si es necesario para cubrir el área, manteniendo el aspecto */
+  border-radius: 0.25rem; /* Bordes ligeramente redondeados */
+  margin-bottom: 0.5rem; /* Espacio debajo de la imagen */
+}
+
+.book-placeholder {
+  width: 150px; /* Ancho fijo similar a una portada de libro */
+  height: 200px; /* Altura fija, igual que book-cover-image */
+  background-color: var(--vino-primary); /* Color de fondo vino */
+  border: 1px solid #dee2e6; /* Borde sutil */
+  border-radius: 0.25rem;
+  margin: 0 auto 0.5rem auto; /* Centrar horizontalmente y añadir margen inferior */
+  color: var(--bs-white); /* Color de texto blanco para contrastar */
+  font-size: 1.2rem; /* Tamaño de fuente para el texto 'Libro' */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-book:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom overlay for card images */
+.card-img-overlay-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%); /* Dark gradient from bottom */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img-overlay-custom {
+  opacity: 1;
+}
+
+.card-img-overlay-custom .card-title,
+.card-img-overlay-custom .card-text {
+  color: white; /* Ensure text is white on dark overlay */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--vino-primary);
+  border-color: var(--vino-primary);
+  color: var(--bs-white); /* White text for primary buttons */
+  border-radius: 50rem; /* rounded-full equivalent */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 equivalent */
+}
+.btn-primary:hover {
+  background-color: #a0002a; /* Darker wine on hover */
+  border-color: #a0002a;
+}
+.btn-outline-light {
+    color: var(--vino-primary);
+    border-color: var(--vino-primary);
+}
+.btn-outline-light:hover {
+    background-color: var(--vino-primary);
+    color: var(--bs-white);
+}
+
+/* Specific styles for draggable video modal to ensure smooth dragging */
+.draggable-video-modal .modal-dialog {
+    transition: transform 0s ease-out !important;
+}
+
+/* Custom Alert styling (for contact page) */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6fb;
+}
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-color: #bee5eb;
+}
+
+.btn-whatsapp {
+  background-color: transparent !important; /* Ensure no background */
+  border-color: transparent !important; /* Ensure no border */
+  color: var(--bs-body-color); /* Black text for contrast */
+}
+
+.btn-whatsapp:hover {
+  background-color: transparent !important; /* Keep transparent on hover */
+  border-color: transparent !important; /* Keep transparent on hover */
+}
+
+/* Bible Page Background */
+.bible-page-background {
+  min-height: 100vh;
+  /* NOTE: Replace this placeholder image URL with your chosen Unsplash image */
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/id/292/1920/1080'); /* Placeholder nature image with dark overlay */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Specific styles for "Versículo del Día" card */
+.card-verse-of-day {
+  background-color: var(--vino-primary) !important;
+  color: var(--bs-white) !important;
+}
+
+.card-verse-of-day .card-title,
+.card-verse-of-day .blockquote p,
+.card-verse-of-day .blockquote-footer,
+.card-verse-of-day .text-primary { /* Target the icon */
+  color: var(--bs-white) !important;
+}
+
+/* Custom red color for icons */
+.text-red-icon {
+  color: #dc3545 !important; /* Bootstrap's danger red */
+}
+
+/* Custom strong blue color for specific text */
+.text-strong-blue {
+  color: #0000CD !important; /* Azul más intenso */
+}
+
+/* Custom pure black color */
+.text-pure-black {
+  color: #000000 !important;
+}
+
+/* Styles for Banner Section */
+.banner-section {
+  min-height: 250px; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.75rem; /* Match card styling */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  margin-top: 3rem; /* Add some margin from the section above */
+  margin-bottom: 3rem; /* Add some margin from the section below */
+}
+
+/* Admin Nav Pills Responsiveness */
+.admin-nav-pills {
+  flex-wrap: wrap;
+  justify-content: center; /* Center the pills when wrapped */
+}
+
+.admin-nav-pills .nav-item {
+  margin-bottom: 0.5rem; /* Add some vertical spacing between wrapped pills */
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1.05) translate(1%, 1%);
+  }
+  100% {
+    transform: scale(1.25) translate(-2%, -2%);
+  }
+}
+
+/* Styles for Testimonios Banner */
+.banner-container {
+  min-height: 250px; /* Altura mínima del banner */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Asegura que la imagen no se desborde */
+}
+
+.banner-container img {
+  width: 100%;
+  height: auto; /* Ajusta la altura automáticamente */
+  object-fit: cover; /* Cubre el área del contenedor */
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay semitransparente oscuro */
+  padding: 1rem;
+}
+
+.banner-overlay h1 {
+  font-size: 3rem; /* Tamaño de fuente para el título del banner */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto para mejor lectura */
+}
+
+/* WhatsApp SVG Icon Styling */
+.whatsapp-img-icon {
+  height: 1.5em; /* Adjust height to match previous icon size */
+  width: 1.5em; /* Set width to match height for perfect circle */
+  vertical-align: middle; /* Align with text */
+  border-radius: 50%; /* Make the image element round */
+  background-color: #6B8E23; /* Changed to Olive Green */
+  padding: 0.1em; /* Add some padding inside the circle if needed */
+  box-sizing: content-box; /* Include padding in total size */
+  border: 2px solid white; /* White border for the round icon */
+}
+
+/* Quiénes Somos Hero Section */
+.quienes-somos-hero-section {
+  min-height: 70vh; /* Responsive height */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg'); /* Darker to lighter transparent overlay */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important; /* Wine red border */
+  border-radius: 0.75rem; /* Match card styling */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Subtle text shadow for readability */
+}
+
+.quienes-somos-hero-section h1,
+.quienes-somos-hero-section p {
+  color: white; /* Ensure text is white */
+}
+
+/* Value Card Border */
+.value-card-border-primary {
+  border: 3px solid var(--vino-primary) !important; /* Wine red border, increased size */
+}
+
+/* Donaciones Hero Section */
+.donaciones-hero-section {
+  min-height: 70vh; /* Responsive height */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg'); /* Darker to lighter transparent overlay */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important; /* Wine red border */
+  border-radius: 0.75rem; /* Match card styling */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Subtle text shadow for readability */
+}
+
+.donaciones-hero-section h1,
+.donaciones-hero-section p {
+  color: white; /* Ensure text is white */
+}
+
+/* Contacto Hero Section */
+.contact-hero-section {
+  min-height: 70vh; /* Responsive height */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg'); /* Darker to lighter transparent overlay */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Parallax effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important; /* Wine red border */
+  border-radius: 0.75rem; /* Match card styling */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Subtle text shadow for readability */
+}
+
+.contact-hero-section h1,
+.contact-hero-section p {
+  color: white; /* Ensure text is white */
+}
+
+/* Book Library Hero Section */
+.libros-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.libros-hero-section h1,
+.libros-hero-section p {
+  color: white;
+}
+
+/* Peliculas Hero Section */
+.peliculas-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.peliculas-hero-section h1,
+.peliculas-hero-section p {
+  color: white;
+}
+
+/* Cursos Hero Section */
+.cursos-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.cursos-hero-section h1,
+.cursos-hero-section p {
+  color: white;
+}
+
+/* Galerias Hero Section */
+.galerias-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.galerias-hero-section h1,
+.galerias-hero-section p {
+  color: white;
+}
+
+/* Predicas Hero Section */
+.predicas-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.predicas-hero-section h1,
+.predicas-hero-section p {
+  color: white;
+}
+
+/* Eventos Hero Section */
+.eventos-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.eventos-hero-section h1,
+.eventos-hero-section p {
+  color: white;
+}
+
+/* Vision Hero Section */
+.vision-hero-section {
+  min-height: 50vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 3px solid var(--vino-primary) !important;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.vision-hero-section h1,
+.vision-hero-section p {
+  color: white;
+}
+
+/* Mission Sub-Hero Section (for content blocks) */
+.mission-sub-hero-section {
+  background-color: var(--bs-secondary) !important; /* Light grey background */
+  padding: 2rem !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mission-sub-hero-section h2 {
+  color: var(--vino-primary);
+  font-weight: bold;
+}
+
+.mission-sub-hero-section p {
+  color: var(--bs-body-color);
+}
+
+/* Mission Card Content */
+.mission-card-content {
+  background-color: var(--bs-white); /* White background for the card */
+}
+
+/* Search Bar Section */
+.search-bar-section {
+  background-color: var(--bs-secondary);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive adjustments for collapsed Navbar menu items */
+/* Overriding Bootstrap's xxl breakpoint to ensure Navbar expands on even wider screens */
+@media (min-width: 1600px) { /* Custom breakpoint, wider than Bootstrap's xxl (1400px) */
+  .navbar-expand-xxl .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-expand-xxl .navbar-toggler {
+    display: none;
+  }
+  /* Ensure nav items stack vertically in collapsed state */
+  .navbar-nav {
+    flex-wrap: nowrap !important; /* Prevent wrapping on very wide screens */
+    flex-direction: row !important; /* Ensure items are in a row */
+  }
+}
+
+@media (max-width: 1599.98px) { /* Adjust styles when Navbar is collapsed (below custom breakpoint) */
+  .navbar-collapse .navbar-nav .nav-link,
+  .navbar-collapse .dropdown-item {
+    font-size: 1.1rem !important; /* Adjusted smaller font size for responsive menu */
+    padding: 0.25rem 0.5rem !important; /* Adjusted smaller padding for responsive menu */
+  }
+
+  .navbar-collapse .navbar-nav .nav-link .svg-inline--fa,
+  .navbar-collapse .dropdown-item .svg-inline--fa {
+    font-size: 1.2rem !important; /* Adjusted smaller icon size */
+  }
+}
+
+
+/* Custom styles for Admin Panel Sidebar Navigation */
+.admin-sidebar-nav .nav-link {
+  color: #e9ecef !important; /* Lighter grey text */
+  padding: 0.75rem 1rem; /* Adequate padding */
+  margin-bottom: 0.5rem; /* Space between items */
+  border-radius: 0.375rem; /* Slightly rounded corners */
+  transition: all 0.2s ease-in-out;
+  display: flex; /* Enable flexbox for icon alignment */
+  align-items: center; /* Vertically align icon and text */
+}
+
+.admin-sidebar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle white background on hover */
+  color: var(--bs-white) !important; /* White text on hover */
+}
+
+.admin-sidebar-nav .nav-link.active {
+  background-color: var(--vino-primary) !important; /* Wine red background for active item */
+  color: var(--bs-white) !important; /* White text for active item */
+  font-weight: 600; /* Bolder text for active item */
+}
+
+/* Style for the logout button in the sidebar */
+.admin-sidebar-nav .btn-outline-light {
+  color: #e9ecef !important; /* Lighter grey text */
+  border-color: #e9ecef !important; /* Lighter grey border */
+}
+
+.admin-sidebar-nav .btn-outline-light:hover {
+  background-color: #e9ecef !important; /* Lighter grey background on hover */
+  color: var(--bs-dark) !important; /* Dark text on hover */
+}
+
+/* Hero Title Size */
+.hero-title {
+  font-size: 5rem; /* Increased font size for the main hero title */
+}

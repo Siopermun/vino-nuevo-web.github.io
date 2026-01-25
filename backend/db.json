@@ -1,0 +1,806 @@
+{
+  "home": {
+    "title": "Bienvenidos <br /> a Vino Nuevo en Odres Nuevos",
+    "subtitle": "Un lugar para encontrar fe, esperanza y una comunidad que te recibe con los brazos abiertos."
+  },
+  "quienesSomos": {
+    "title": "Nuestro Ministerio",
+    "lead": "Ministerio Apostólico, Misionero y Profético",
+    "ministryName": "Vino Nuevo en Odres Nuevos",
+    "scope": "Un ministerio de alcance internacional."
+  },
+  "books": [
+    {
+      "filename": "05 - COMENTARIO DE HECHOS - simon j. kistemaker.pdf",
+      "title": "Comentario De Hechos - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "05 - Hechos - Simon J. Kistemaker.pdf",
+      "title": "Hechos - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "15 - Hebreos - Simon J. Kistemaker (1).pdf",
+      "title": "Hebreos - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "15 -Comentario Simon Kistemaker -Santiago, & 1,2,3Juan.pdf",
+      "title": "Comentario Simon Kistemaker -Santiago, & 1,2,3Juan",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "18 - Apocalipsis - Simon J. Kistemaker.pdf",
+      "title": "Apocalipsis - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "2016 Cruz Sermones actuales sobre las parabolas de Jesus.pdf",
+      "title": "Cruz Sermones Actuales Sobre Las Parabolas De Jesus",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "21, 22 y 26. Kistemaker, Simon -1994- Comentario al Nuevo Testamento. 1-2 Pedro y Judas.pdf",
+      "title": "Kistemaker, Simon -1994- Comentario Al Nuevo Testamento. 1-2 Pedro Y Judas",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "21 Días con el Espíritu Santo.pdf",
+      "title": "21 Días Con El Espíritu Santo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "24.0 LIBRO DE LIDERAZGO LA CULPA ES DE LA VACA.pdf",
+      "title": "Libro De Liderazgo La Culpa Es De La Vaca",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "241729193 Desafios Para Jovenes y Adolescentes Mateo 1 pdf.pdf",
+      "title": "Desafios Para Jovenes Y Adolescentes Mateo 1",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "243125961 Desafios Para Jovenes y Adolescentes Marcos pdf.pdf",
+      "title": "Desafios Para Jovenes Y Adolescentes Marcos",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "624- La culpa es de la vaca.pdf",
+      "title": "La Culpa Es De La Vaca",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "7. Simon J. Kistemaker - Comentario al Nuevo Testamento - 1 Corintios.pdf",
+      "title": "Simon J. Kistemaker - Comentario Al Nuevo Testamento - 1 Corintios",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "8. Kistemaker, Simon -2004- Comentario al Nuevo Testamento. 2 Corintios (1).pdf",
+      "title": "Kistemaker, Simon -2004- Comentario Al Nuevo Testamento. 2 Corintios",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Angeles - Agentes secretos de Dios - Billy Graham.pdf",
+      "title": "Angeles - Agentes Secretos De Dios - Billy Graham",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Arena en los zapatos.pdf",
+      "title": "Arena En Los Zapatos",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Benny Hinn - Buenos dias Espiritu Santo.pdf",
+      "title": "Benny Hinn - Buenos Dias Espiritu Santo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "''Biblia Diario Vivir Biblia de Estudio.pdf",
+      "title": "Biblia Diario Vivir Biblia De Estudio",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Bienvenido Espíritu Santo - Benny Hinn.pdf",
+      "title": "Bienvenido Espíritu Santo - Benny Hinn",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Billy Graham - Aviso de tormenta.pdf",
+      "title": "Billy Graham - Aviso De Tormenta",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Billy Graham - El secreto de la paz personal (PDF).pdf",
+      "title": "Billy Graham - El Secreto De La Paz Personal (PDF)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Billy Graham El Manual Para Obreros Cristianos.pdf",
+      "title": "Billy Graham El Manual Para Obreros Cristianos",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "BIOGRAFÍAS DE GRANDES CRISTIANOS BOYER.pdf",
+      "title": "Biografías De Grandes Cristianos Boyer",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Bosquejos expositivos de la Biblia 5 Tomos - Warren W. Wiersbe.pdf",
+      "title": "Bosquejos Expositivos De La Biblia 5 Tomos - Warren W. Wiersbe",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Bosquejos Expositivos de la Biblia N.T - Juan (Warren W. Wiersbe).pdf",
+      "title": "Bosquejos Expositivos De La Biblia N.T - Juan (Warren W. Wiersbe)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Boyer, Orlando -1983- Biografías de Grandes Crsitianos. Tomos 1 y 2.pdf",
+      "title": "Boyer, Orlando -1983- Biografías De Grandes Crsitianos. Tomos 1 Y 2",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Cartas desde el Sufrimiento Charles Spurgeon.pdf",
+      "title": "Cartas Desde El Sufrimiento Charles Spurgeon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Castellani - Las Parabolas de Cristo.pdf",
+      "title": "Castellani - Las Parabolas De Cristo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Charles H. Spurgeon - Lecturas Matutinas.pdf",
+      "title": "Charles H. Spurgeon - Lecturas Matutinas",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "CLASE 23 - Signos Vitales - Primeros Auxilios - RCP.pdf",
+      "title": "CLASE 23 - Signos Vitales - Primeros Auxilios - Rcp",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario al Nuevo Testamento 1 2 Pedro y Judas Simon Kistemaker.pdf",
+      "title": "Comentario Al Nuevo Testamento 1 2 Pedro Y Judas Simon Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario al Nuevo Testamento HEBREOS Simon Kistemaker.pdf",
+      "title": "Comentario Al Nuevo Testamento Hebreos Simon Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario biblico con aplicacion Efesios - Snodgr.pdf",
+      "title": "Comentario Biblico Con Aplicacion Efesios - Snodgr",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario biblico con aplicacion NVI 1 Corintios.pdf",
+      "title": "Comentario Biblico Con Aplicacion Nvi 1 Corintios",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario bíblico con aplicación NVI 1 Pedro - Scot McKnight.pdf",
+      "title": "Comentario Bíblico Con Aplicación Nvi 1 Pedro - Scot Mcknight",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario bíblico con aplicación NVI 1 y 2 Timoteo, Tito - Walter L. Liefeld.pdf",
+      "title": "Comentario Bíblico Con Aplicación Nvi 1 Y 2 Timoteo, Tito - Walter L. Liefeld",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario bíblico con aplicación NVI 2 Pedro y Judas - Douglas J. Moo.pdf",
+      "title": "Comentario Bíblico Con Aplicación Nvi 2 Pedro Y Judas - Douglas J. Moo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario bíblico con aplicación NVI Hebreos - George H. Guthrie.pdf",
+      "title": "Comentario Bíblico Con Aplicación Nvi Hebreos - George H. Guthrie",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario Biblico con Aplicacion NVI Marcos - David E. Garland.pdf",
+      "title": "Comentario Biblico Con Aplicacion Nvi Marcos - David E. Garland",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Comentario bíblico con aplicacion NVI Santiago - David P. Nystrom.pdf",
+      "title": "Comentario Bíblico Con Aplicacion Nvi Santiago - David P. Nystrom",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Cómo escuchar la voz de Dios (Spanish Edition)-PDFConverted.pdf",
+      "title": "Cómo Escuchar La Voz De Dios (Spanish Edition)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Como Liberar Los Dones Espirituales Hoy - James W. Goll.pdf",
+      "title": "Como Liberar Los Dones Espirituales Hoy - James W. Goll",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Como Vivir Una Vida Sobrenatural - James W. Goll.pdf",
+      "title": "Como Vivir Una Vida Sobrenatural - James W. Goll",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Concordancia completa de la Biblia.pdf",
+      "title": "Concordancia Completa De La Biblia",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Concordancia de Las Sagradas Escrituras RVR1960.pdf",
+      "title": "Concordancia De Las Sagradas Escrituras Rvr1960",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Confiando En El Espiritu Santo-Charles Stanley.pdf",
+      "title": "Confiando En El Espiritu Santo-Charles Stanley",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Coros clases biblicas visualizadas bueno.pdf",
+      "title": "Coros Clases Biblicas Visualizadas Bueno",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "David Cox - Billy Graham Promovedor de Ecumenismo.pdf",
+      "title": "David Cox - Billy Graham Promovedor De Ecumenismo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "De obrero sindical a obrero de Dios.pdf",
+      "title": "De Obrero Sindical A Obrero De Dios",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Demasiado bueno para ser bueno - Kristan Higgins.epub",
+      "title": "Demasiado Bueno Para Ser Bueno - Kristan Higgins.Epub",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "DEMO - Nueva Biblia de Estudio Scofield - Genesis.pdf",
+      "title": "Demo - Nueva Biblia De Estudio Scofield - Genesis",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Desafios para jovenes Exodo - Levitico - Edgardo Tosoni · versión 1.pdf",
+      "title": "Desafios Para Jovenes Exodo - Levitico - Edgardo Tosoni",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Detectives Biblicos -Instrucciones de Manualidades · versión 1.pdf",
+      "title": "Detectives Biblicos -Instrucciones De Manualidades",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Devocional una madre conforme al corazón de Dios – Elizabeth George.pdf",
+      "title": "Devocional Una Madre Conforme Al Corazón De Dios – Elizabeth George",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Discipulado para jovenes - Marcos Landis.pdf",
+      "title": "Discipulado Para Jovenes - Marcos Landis",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Docente de Básica Secundaria y Media - Tecnología e Informática.pdf",
+      "title": "Docente De Básica Secundaria Y Media - Tecnología E Informática",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El Abrigo del Altisimo - Salmo 91 - C. H. SPURGEON.pdf",
+      "title": "El Abrigo Del Altisimo - Salmo 91 - C. H. Spurgeon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "el espiritu santo charles c ryrie x eltr.pdf",
+      "title": "El Espiritu Santo Charles C Ryrie X Eltr",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El Espiritu Santo (Graham Billy).pdf",
+      "title": "El Espiritu Santo (Graham Billy)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El Espiritu Santo revelado en la Biblia. Stanley Horton.pdf",
+      "title": "El Espiritu Santo Revelado En La Biblia. Stanley Horton",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El Gran Milagro - Benny Hinn.pdf",
+      "title": "El Gran Milagro - Benny Hinn",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "EL MUNDO ESPIRITUAL GUERRA ESPIRITUAL (Spanish Edition).pdf",
+      "title": "EL MUNDO ESPIRITUAL GUERRA ESPIRITUAL (Spanish Edition)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El origen de las tormentas en - Gaia Jiménez.pdf",
+      "title": "El Origen De Las Tormentas En - Gaia Jiménez",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El progreso del peregrino -John Bunyan.pdf",
+      "title": "El Progreso Del Peregrino -John Bunyan",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "El Sufrimiento y la Restauración de Job Spanish Edition PDFConverted.pdf",
+      "title": "El Sufrimiento Y La Restauración De Job Spanish Edition",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Elizabeth George - Una pareja conforme al corazon de Dios.pdf",
+      "title": "Elizabeth George - Una Pareja Conforme Al Corazon De Dios",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "En Los Zapatos Del Evangelista Experiencias & Anécdotas Ministeriales (Spanish Edition).pdf",
+      "title": "En Los Zapatos Del Evangelista Experiencias & Anécdotas Ministeriales (Spanish Edition)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Encuentros con Dios hoy James W Goll.pdf",
+      "title": "Encuentros Con Dios Hoy James W Goll",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Enfrentando a Los Testigos de Jehová Spanish Edition Eduardo Gutierrez.pdf",
+      "title": "Enfrentando A Los Testigos De Jehová Spanish Edition Eduardo Gutierrez",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Estudios Bíblicos para niños Mateo · versión 1.pdf",
+      "title": "Estudios Bíblicos Para Niños Mateo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Estudios de la Biblia para Niños Obrero Fiel pdf · versión 1.pdf",
+      "title": "Estudios De La Biblia Para Niños Obrero Fiel",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "ESTUDIOS TEOLOGICOS EL ESPIRITU SANTO EN LA TRADICION SINOPTICA.pdf",
+      "title": "ESTUDIOS TEOLOGICOS EL ESPIRITU SANTO EN LA TRADICION SINOPTICA",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Evangelizar en Internet Descub - David Gomez Ramirez.pdf",
+      "title": "Evangelizar En Internet Descub - David Gomez Ramirez",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "GENERALES DE DIOS LOS MA RTIRES 6.pdf",
+      "title": "Generales De Dios Los Ma Rtires 6",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Guia Didactica De Robotica Educativa Con.pdf",
+      "title": "Guia Didactica De Robotica Educativa Con",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "John Bunyan -El progreso del peregrino.pdf",
+      "title": "John Bunyan -El Progreso Del Peregrino",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "KELLER, Timothy 2019 Caminando con Dios a través de el dolor y.pdf",
+      "title": "Keller, Timothy 2019 Caminando Con Dios A Través De El Dolor Y",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Kenneth E. Bailey - Las Parabolas de Lucas.pdf",
+      "title": "Kenneth E. Bailey - Las Parabolas De Lucas",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Kenneth-Bailey-Luc 15 El-Hijo-Prodigo.pdf",
+      "title": "Kenneth-Bailey-Luc 15 El-Hijo-Prodigo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La culpa es de D.I.S.N.E.I - Garcia de Saura.pdf",
+      "title": "La Culpa Es De D.I.S.N.E.I - Garcia De Saura",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La culpa es de la vaca 1.PDF",
+      "title": "La Culpa Es De La Vaca 1",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La culpa es de la Vaca 2 - Jaime Lopera.pdf",
+      "title": "La Culpa Es De La Vaca 2 - Jaime Lopera",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La culpa es de la Vaca 2.PDF",
+      "title": "La Culpa Es De La Vaca 2",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La culpa es de la vaca para mujeres ( etc.).pdf",
+      "title": "La Culpa Es De La Vaca Para Mujeres ( Etc.)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La Culpa es de la Vaca para Niñ@s 27 Cuentos 67p compr.pdf",
+      "title": "La Culpa Es De La Vaca Para Niñ@S 27 Cuentos 67P Compr",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "LA INTELIGENCIA ARTIFICIAL EXPLICADA A LOS HUMANOS.pdf",
+      "title": "La Inteligencia Artificial Explicada A Los Humanos",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La Santidad de Dios - R. C. Sproul.pdf",
+      "title": "La Santidad De Dios - R. C. Sproul",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La vaca púrpura ( PDFDrive.com ).pdf",
+      "title": "La Vaca Púrpura ( Pdfdrive.Com )",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La venganza de la vaca S. Aguirre.pdf",
+      "title": "La Venganza De La Vaca S. Aguirre",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "La vid, todo sobre la planta del vino - De Buena Vid.pdf",
+      "title": "La Vid, Todo Sobre La Planta Del Vino - De Buena Vid",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Las conversaciones de Jesus - Simon J. Kistemaker.pdf",
+      "title": "Las Conversaciones De Jesus - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Las parabolas de Jesus - Simon J. Kistemaker.pdf",
+      "title": "Las Parabolas De Jesus - Simon J. Kistemaker",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Las parabolas de Jesus. R. T. Kendall.pdf",
+      "title": "Las Parabolas De Jesus. R. T. Kendall",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Las Sagradas Escrituras Biblia Versión Antigua - Russell M. Stendal (Editor).pdf",
+      "title": "Las Sagradas Escrituras Biblia Versión Antigua - Russell M. Stendal (Editor)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Libro - Las parabolas de Jesus para niños.pdf",
+      "title": "Libro - Las Parabolas De Jesus Para Niños",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Libro Cálculo y administración de medicamentos 2018.pdf",
+      "title": "Libro Cálculo Y Administración De Medicamentos 2018",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Libro Farmacologia y endocrinologia del comporta Balada Nicolau.pdf",
+      "title": "Libro Farmacologia Y Endocrinologia Del Comporta Balada Nicolau",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los 7 habitos de la gente altamente efec - Stephen.pdf",
+      "title": "Los 7 Habitos De La Gente Altamente Efec - Stephen",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los Cantos de Jesús. Timothy Keller con Kathy Keller.pdf",
+      "title": "Los Cantos De Jesús. Timothy Keller Con Kathy Keller",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los clasicos perdurables (Tradu - Billy Graham.pdf",
+      "title": "Los Clasicos Perdurables (Tradu - Billy Graham",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los fariseos - Enciclopedia de la Historia del Mundo.pdf",
+      "title": "Los Fariseos - Enciclopedia De La Historia Del Mundo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los Generales de Dios Grandes Misioneros V.pdf",
+      "title": "Los Generales De Dios Grandes Misioneros V",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los generales de Dios II - Roberts Liardon.pdf",
+      "title": "Los Generales De Dios Ii - Roberts Liardon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Los Generales de Dios IV Los evangelistas de sanidad Roberts Liardon.pdf",
+      "title": "Los Generales De Dios Iv Los Evangelistas De Sanidad Roberts Liardon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "LOS ZAPATOS DEL PREDICADOR.PDF",
+      "title": "Los Zapatos Del Predicador",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Nivel Avanzado 1 Como liberar a una persona.pdf",
+      "title": "Nivel Avanzado 1 Como Liberar A Una Persona",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "No Por Ignorancia. La Vigencia de los Dones Espirituales (2017). Frank W. R. Benoit.pdf",
+      "title": "No Por Ignorancia. La Vigencia De Los Dones Espirituales (2017). Frank W. R. Benoit",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "OBRAS DE TEATRO PARA ADOLESCENTES Y JOVENES.pdf",
+      "title": "Obras De Teatro Para Adolescentes Y Jovenes",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Oraciones para la victoria en la guerra espiritual - Tony Evans.pdf",
+      "title": "Oraciones Para La Victoria En La Guerra Espiritual - Tony Evans",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Oraciones para la victoria en la guerra espiritual Spanish E.pdf",
+      "title": "Oraciones Para La Victoria En La Guerra Espiritual Spanish E",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Oraciones Proféticas Guerra Espiritual (Spanish Edition).pdf",
+      "title": "Oraciones Proféticas Guerra Espiritual (Spanish Edition)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Oraciones proféticas Volumen 2 (Spanish Edition).pdf",
+      "title": "Oraciones Proféticas Volumen 2 (Spanish Edition)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Paz con Dios de Billy Graham.pdf",
+      "title": "Paz Con Dios De Billy Graham",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "pdfcoffee.com_as-parabolas-de-lucas-kenneth-bailey-pdf-pdf-free.pdf",
+      "title": "Pdfcoffee.Com_as-Parabolas-De-Lucas-Kenneth-Bailey-Pdf-Pdf-Free",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Poder Del Espiritu Santo Charles H Spurgeon.pdf",
+      "title": "Poder Del Espiritu Santo Charles H Spurgeon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Profundizando con el Espiritu Santo - Benny Hinn.pdf",
+      "title": "Profundizando Con El Espiritu Santo - Benny Hinn",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Robert Thomas - Entendamos Los Dones Espirituales.pdf",
+      "title": "Robert Thomas - Entendamos Los Dones Espirituales",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Sabiduría de Dios para navegar por la vida - KELLER, Timothy (2018)..pdf",
+      "title": "Sabiduría De Dios Para Navegar Por La Vida - Keller, Timothy (2018).",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Salmo 23 - Charles H. Spurgeon.pdf",
+      "title": "Salmo 23 - Charles H. Spurgeon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "SECRETOS CELESTIALES PARA DESARROLLAR DONES ESPIRITUALES.pdf",
+      "title": "Secretos Celestiales Para Desarrollar Dones Espirituales",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Solución a los problemas de la vida. Billy Graham..pdf",
+      "title": "Solución A Los Problemas De La Vida. Billy Graham.",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Steven Lawson El Enfoque en El Evangelio de Charles Spurgeon.pdf",
+      "title": "Steven Lawson El Enfoque En El Evangelio De Charles Spurgeon",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "SUNUKJIAN, Donald - Volvamos a la predicación biblica.pdf",
+      "title": "SUNUKJIAN, Donald - Volvamos A La Predicación Biblica",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Testigos de Jehová. Los misioneros de Satán.pdf",
+      "title": "Testigos De Jehová. Los Misioneros De Satán",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Tim Keller - La iglesia centrada.pdf",
+      "title": "Tim Keller - La Iglesia Centrada",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Tim Keller- Encuentros Con Jesús.pdf",
+      "title": "Tim Keller- Encuentros Con Jesús",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Timothy Keller - El Dios pródigo.pdf",
+      "title": "Timothy Keller - El Dios Pródigo",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Tormenta de Oración - James W. Goll.pdf",
+      "title": "Tormenta De Oración - James W. Goll",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "una joven conforme al corazon de Dios elizabeth george pdf pdf free.PDF",
+      "title": "Una Joven Conforme Al Corazon De Dios Elizabeth George Pdf Pdf Free",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Una Mujer Conforme al Corazón de Dios (Elizabeth George).pdf",
+      "title": "Una Mujer Conforme Al Corazón De Dios (Elizabeth George)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "UNA PAREJA CONFORME AL CORAZON DE DIOS E.pdf",
+      "title": "Una Pareja Conforme Al Corazon De Dios E",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Una vida con propósito (The Purpose Driven Life) (Spanish Edition) (Rick Warren).pdf",
+      "title": "Una Vida Con Propósito (The Purpose Driven Life) (Spanish Edition) (Rick Warren)",
+      "author": "Autor Desconocido"
+    },
+    {
+      "filename": "Warren W. Wiersbe - Bosquejos expositivos de Wiersbe (Bosquejos Expositivos De La Biblia).pdf",
+      "title": "Warren W. Wiersbe - Bosquejos Expositivos De Wiersbe (Bosquejos Expositivos De La Biblia)",
+      "author": "Autor Desconocido"
+    }
+  ],
+  "users": {
+    "admin": {
+      "passwordHash": "$2b$10$/g9BQbIyHxaZieGlt1eiY.nsUzI5sHii6w9ROetS24iI/Pwsqg/8."
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "title": "Conferencia de Matrimonios",
+      "date": "Sábado, 25 de Febrero, 2026 - 10:00 AM",
+      "description": "Un día para fortalecer los lazos matrimoniales a la luz de la palabra de Dios. Contaremos con invitados especiales.",
+      "image": "https://picsum.photos/id/1015/400/300"
+    },
+    {
+      "id": 2,
+      "title": "Campamento Juvenil \"Generación de Fuego\"",
+      "date": "Viernes, 10 de Marzo, 2026 - 5:00 PM",
+      "description": "Tres días de adoración, enseñanza y compañerismo para jóvenes de 13 a 18 años. ¡No te lo pierdas!",
+      "image": "https://picsum.photos/id/10/400/300"
+    },
+    {
+      "id": 3,
+      "title": "Jornada de Ayuno y Oración",
+      "date": "Miércoles, 1 de Marzo, 2026 - 6:00 AM",
+      "description": "Nos unimos como iglesia para buscar el rostro de Dios en ayuno y oración por las necesidades de nuestra comunidad.",
+      "image": "https://picsum.photos/id/30/400/300"
+    },
+    {
+      "id": 4,
+      "title": "Celebración del Día de las Madres",
+      "date": "Domingo, 14 de Mayo, 2026 - 11:00 AM",
+      "description": "Un servicio especial para honrar y celebrar a todas las madres de nuestra congregación. Habrá sorpresas.",
+      "image": "https://picsum.photos/id/1027/400/300"
+    },
+    {
+      "id": 1768359671950,
+      "title": "santidad a Jehova",
+      "date": "26-1-2024",
+      "description": "Te invitamos a un servicio de sanidad y liberación",
+      "image": ""
+    }
+  ],
+  "sermons": [
+    {
+      "id": 1,
+      "title": "El Poder de la Oración",
+      "preacher": "Pastor Juan Pérez",
+      "date": "Domingo, 12 de Enero, 2025",
+      "description": "Una enseñanza profunda sobre cómo la oración puede transformar nuestras vidas y nuestra comunidad.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+      "id": 2,
+      "title": "Viviendo en Fe",
+      "preacher": "Pastora María Gómez",
+      "date": "Domingo, 19 de Enero, 2025",
+      "description": "Descubre cómo aplicar la fe en tu día a día para superar los desafíos y vivir una vida victoriosa.",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+      "id": 3,
+      "title": "Cómo Vencer la Preocupación",
+      "preacher": "Hermano Carlos Ruíz",
+      "date": "Domingo, 5 de Enero, 2025",
+      "description": "Consejos bíblicos prácticos para encontrar paz en medio de la ansiedad y el estrés diario.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Reto de Valientes",
+      "description": "Cuatro oficiales de policía luchan con su fe y su papel como esposos y padres.",
+      "imageUrl": "https://picsum.photos/id/237/400/300",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "id": 2,
+      "title": "A Prueba de Fuego",
+      "description": "Un bombero aprende a amar a su esposa incondicionalmente.",
+      "imageUrl": "https://picsum.photos/id/238/400/300",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Bases de la Fe Cristiana",
+      "description": "Un curso introductorio para nuevos creyentes y para aquellos que desean reafirmar los fundamentos de su fe.",
+      "instructor": "Anciano Roberto Diaz",
+      "schedule": "Lunes 7:00 PM",
+      "image": "https://picsum.photos/id/111/400/300"
+    },
+    {
+      "id": 2,
+      "title": "Estudio del Libro de Romanos",
+      "description": "Un análisis profundo de la carta del apóstol Pablo a los Romanos, explorando sus ricas doctrinas teológicas.",
+      "instructor": "Pastor Juan Pérez",
+      "schedule": "Miércoles 7:00 PM",
+      "image": "https://picsum.photos/id/112/400/300"
+    },
+    {
+      "id": 3,
+      "title": "Matrimonios Saludables",
+      "description": "Taller para parejas que buscan fortalecer su relación, mejorar la comunicación y crecer juntos en el amor de Cristo.",
+      "instructor": "Pastores García",
+      "schedule": "Sábados 4:00 PM",
+      "image": "https://picsum.photos/id/113/400/300"
+    }
+  ],
+  "pastors": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "role": "Pastor Principal",
+      "image": "/uploads/1768370406354-photo_2025-11-14_00-38-31.jpg"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": 1,
+      "title": "Bautizos 2025",
+      "description": "Celebrando una nueva vida en Cristo.",
+      "coverImage": "/uploads/1768370380891-photo_2025-11-14_00-38-31.jpg",
+      "images": []
+    }
+  ]
+}
