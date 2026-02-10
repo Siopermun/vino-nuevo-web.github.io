@@ -1,0 +1,4 @@
+# robots.txt
+User-agent: *
+Allow: /
+Sitemap: URL_DE_TU_SITEMAP.xml
